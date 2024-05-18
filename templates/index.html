@@ -19,18 +19,20 @@
                 <div class="document">
                     <!-- Document content here -->
                     <textarea id="editor"></textarea>
-                    <p id="textChangeIndicator"></p>
                 </div>
             </div>
-            <button id="classifyButton">Classify Text</button>
+            <button id="classifyButton"> Classify Text</button>
         </main>
         <footer>
             <!-- Footer content here -->
             <p>Footer for things</p>
         </footer>
     </div>
-    <script src="{{ url_for('static', filename='script/script.js') }}" type="module"></script>
-    <script src="{{ url_for('static', filename='script/websocket.js') }}" type="module"></script>
+    <div id="spinner" class="spinner" style="display: none;"></div>
+
+    <script src="{{ url_for('static', filename='script/components/classify.js') }}" type="module"></script>
+    <script src="{{ url_for('static', filename='script/components/editor.js') }}" type="module"></script>
+    <script src="{{ url_for('static', filename='script/components/loading.js') }}" type="module"></script>
 
 </body>
 </html>

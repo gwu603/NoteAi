@@ -27,7 +27,7 @@ def handle_text_update(data):
 @app.route('/classify', methods=['POST'])
 def classify():
     text = request.json['text']
-    categories = ["Meetings and Events", "To-Do Lists and Tasks", "Project Updates", "Class Notes"]
+    categories = ["Meetings and Events", "To-Do Lists and Tasks", "Project Updates", "Class Notes", "None of above"]
     model = text_classification_model()
     c_dict.clear()
     for s in text:

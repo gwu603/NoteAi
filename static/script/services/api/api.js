@@ -24,9 +24,4 @@ function getClassifyRequest() {
     return request(url, method, headers);
 }
 
-function sendUpdatedText(socket, text) {
-    socket.emit('update_text', {text:text});
-}
-
-
-export { postClassifyRequest, getClassifyRequest, sendUpdatedText };
+export { postClassifyRequest, getClassifyRequest };

@@ -1,10 +1,29 @@
 Classify text into one of the categories.
 
-Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes, None of above
 Text: Discussed project updates during the team meeting, assigned tasks to team members, and set deadlines for completion.
 Category: Project Updates
 
-Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes, None of above
 Text: Lunch with Joe at 12 pm 
 Category: Meetings and Events
 
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes, None of above
+Text: Discussed project updates during the team meeting, assigned tasks to team members, and set deadlines for completion.
+Category: Project Updates
+
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes, None of above
+Text: Complete homework assignment for chemistry class.
+Category: To-Do Lists and Tasks
+
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes, None of above
+Text: Weekly progress - Tue 2PM - Zoom
+Category: Meetings and Events
+
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes, None of above
+Text: Dreamt I was flying last night. It felt so real, like I could soar through the sky effortlessly.
+Category: None of above
+
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes, None of above
+Text: Started a new hobby of gardening and planted my first batch of herbs. Can't wait to see them grow!
+Category: None of above
