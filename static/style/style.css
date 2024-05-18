@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    background-color: #f6f6f6;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.document {
+    width: 8.5in;
+    height: 11in;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    overflow: hidden; /* Hide overflow content */
+}
+
+textarea {
+    width: calc(100% - 40px); /* Adjusting for padding */
+    height: calc(100% - 40px); /* Adjusting for padding */
+    border: none;
+    outline: none;
+    resize: none; /* Prevent resizing of textarea */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.document-container {
+    position: relative; /* Set position to relative for absolute positioning of the button */
+}
+
+#sortButton {
+    position: absolute;
+    top: 50%;
+    right: calc(50% + 8.5in / 2 + 20px); /* Right position calculated to be just to the right of the document */
+    transform: translateY(-50%);
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sortButton:hover {
+    background-color: #e0e0e0;
+}
+

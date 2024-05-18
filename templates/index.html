@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteAi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Header content here -->
+            <h1>Note Ai Text Editor</h1>
+        </header>
+        <main>
+            <div class="document-container">
+                <div class="document">
+                    <!-- Document content here -->
+                    <textarea id="editor"></textarea>
+                    <p id="textChangeIndicator"></p>
+                </div>
+            </div>
+            <button id="classifyButton">Classify Text</button>
+        </main>
+        <footer>
+            <!-- Footer content here -->
+            <p>Footer for things</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='script/script.js') }}" type="module"></script>
+    <script src="{{ url_for('static', filename='script/websocket.js') }}" type="module"></script>
+
+</body>
+</html>

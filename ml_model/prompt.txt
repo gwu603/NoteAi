@@ -1,0 +1,10 @@
+Classify text into one of the categories.
+
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes
+Text: Discussed project updates during the team meeting, assigned tasks to team members, and set deadlines for completion.
+Category: Project Updates
+
+Categories:  Meetings and Events, To-Do Lists and Tasks, Project Updates, Class Notes
+Text: Lunch with Joe at 12 pm 
+Category: Meetings and Events
+
